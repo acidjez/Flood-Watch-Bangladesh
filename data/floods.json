@@ -1,0 +1,5 @@
+{"warnings":[
+    { "warning": "Emergency", "latitude": -37.81, "longitude": 144.955 },
+    { "warning": "Watch", "latitude": -37.813, "longitude": 144.962 },
+    { "warning": "Safe", "latitude": -37.82, "longitude": 144.963 }
+]}

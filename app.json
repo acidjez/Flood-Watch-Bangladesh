@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Flood Watch Bangladesh",
+    "slug": "floods-bangladesh",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.BangladeshiFloodChecker",
+      "config": {
+        "googleMaps": {
+          "apiKey": "" //add your google maps api key here
+        }
+      },
+      "useHardwareAcceleration": true
+    },
+    "plugins": ["expo-notifications"],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6da3be3a-e089-4fed-a271-5c98d28fb2cc"
+      }
+    },
+    "owner": "acidjez"
+  }
+}
